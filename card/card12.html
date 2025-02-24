@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunnydoll</title>
+    <link rel="icon" type="image/x-icon" href="1714897288.ico">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
+    <link rel="import" href="header_tm.html">
+    <style>
+        .btn:hover {
+            color: white;
+            background-color: black;
+        }
+    </style>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="header"></div>
+
+        <a class="btn btn-light fs-4" href="../card.html" role="button" style="margin: 50px; padding: 10px;">查看其他卡片</a>
+
+        <div class="col-12 row" style="display:flex;align-items:center;justify-content:center;">
+            <img src="../img/card/12.png" alt="" style="width: 70%; align-items: center; " class="align-self-center">
+            <h1 class="text-center p-1">你抽到「無限晴天娃娃」</h1>
+            <p class="text-center p-1 fs-5">想法自由、天馬行空，雖然不切實際，但正因為有這種像法才能創造出無限可能性。</p>
+        </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+
+</html>

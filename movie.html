@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影片內容</title>
+    <!-- CSS only -->
+    <link rel="icon" type="image/x-icon" href="1714897288.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="import" href="header_tm.html">
+    <script src="jquery-3.7.1.js">
+    </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script>
+    <style>
+        .movie {
+            width: 100%;
+            height: 900px;
+        }
+
+        @media only screen and (max-width: 900px) {
+            .movie {
+                height: 300px;
+            }
+        }
+        @media only screen and (max-width: 420px) {
+            .movie {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div style="margin:70px 10%;">
+        <div style="height:100%;">
+            <iframe class="movie" src="https://www.youtube.com/embed/LE2K771SrEc?si=PR_lttB8le6T5dNW"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <h1 style="text-align: center; margin: 10px;">I'M</h1>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h6>人們把祈求雨停的希望加注在晴天娃娃身上，如果沒有作用，則會抱怨晴天娃娃是“沒用的”，但其實到最後不論雨有沒有停，晴天娃娃都會被丟棄。就像在某方面的思想被他人灌輸，每個人都活成一個樣子，如同樣貌相同、無色彩的晴天娃娃，被名為期待的繩子緊緊地綁住，把目光面向大家所期待的方向，而最後被丟棄的則是自我思考能力。
+                    <br> <br>
+                    在劇裡共有兩隻晴天娃娃，主角晴天娃娃在意識到問題的時候，會試圖想方法，並奮力地去掙脫，而另一隻晴天娃娃，代表著害怕與他人不同，寧願永遠無生命、無情緒的被控制，我們將兩隻角色在動畫中的行為，呈現出相反的對比，進而導出結局的自由意識，讓有相同困境的人們能有帶入感，並從動畫中感受到共鳴。</h6>
+                <h3 class="accordion-header" id="flush-headingOne">
+                    <button class=" collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
+                        style="display:flex; align-items:center; justify-content:center; width: 100%; ">
+                        English
+                    </button>
+                </h3>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <h6>People place their hopes for the rain to stop on the Sunny Doll. If it doesn't work, they'll
+                            complain that
+                            the Sunny Doll is "useless". But in the end, whether the rain stops or not, the Sunny Doll
+                            will still be
+                            discarded. Just like how thoughts in certain aspects are instilled by others, everyone ends
+                            up living the
+                            same, like colorless Sunny Dolls with identical appearances, tightly bound by the rope
+                            called expectation,
+                            facing the direction anticipated by everyone. Eventually, what gets discarded is the ability
+                            for independent
+                            thinking. <br> <br>
+                            In the play, there are two Sunny Dolls. The main Sunny Doll, upon realizing the problem,
+                            tries to find
+                            solutions and struggles to break free. The other Sunny Doll, representing the fear of being
+                            different from
+                            others, prefers to be forever lifeless and emotionless, controlled by others. We present the
+                            contrasting
+                            behaviors of these two characters in the animation, leading to the theme of liberation in
+                            the end, allowing
+                            people with similar struggles to empathize and resonate with the animation.
+                        
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- JavaScript Bundle with Popper -->
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+.banner{
+  display:flex;
+  align-items: center;
+  align-content:space-around;
+  flex-direction: row;
+}
+.choice{
+  flex-direction:row;
+}
+.nav-item{
+  padding: 10px;
+  border-radius:50%;
+}
+.nav-item:hover{
+  background-color: rgb(255, 235, 146);
+  border-radius: 15px;
+  box-shadow: 0 0 5px 5px #f8f9fa inset; 
+}
+@media only screen and (max-width: 900px) {
+  .navbar-brand {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  #navbarResponsive{
+    display: flex;
+    flex-direction: row;
+  }
+  .banner{
+    display:flex;
+    align-items: center;
+    align-content:space-around;
+    flex-direction: column;
+  }
+  .choice{
+    flex-direction:column;
+  }
+}
